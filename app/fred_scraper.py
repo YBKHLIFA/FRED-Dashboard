@@ -5,7 +5,7 @@ import csv
 from datetime import datetime
 
 # Configuration
-API_KEY = os.getenv('FRED_API_KEY', 'd271ac317f11acb5bcb553e96070ea0e')  # Votre clé
+API_KEY = os.getenv('FRED_API_KEY', 'd271ac317f11acb5bcb553e96070ea0e')  
 BASE_URL = "https://api.stlouisfed.org/fred"
 SERIES = {
     'UNRATE': 'Taux de chômage US',
